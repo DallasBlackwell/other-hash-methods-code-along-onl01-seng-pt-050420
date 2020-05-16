@@ -8,5 +8,11 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-  groceries.min.flatten
+letters = {a: 1, b: 2}
+ 
+letters.min
+#  => [:a, 1]
+ 
+alphabetical_order = {c: 100, d: 1}
+alphabetical_order.min
 end
